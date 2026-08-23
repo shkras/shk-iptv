@@ -15,7 +15,7 @@ Beim ersten Start zeigt Windows evtl. eine Warnung ("Unbekannter Herausgeber"). 
 
 ## Erste Schritte
 
-Zugangsdaten (Server, Benutzername, Passwort) einmal eingeben, die App merkt sich alles für den nächsten Start.
+Zugangsdaten (Server, Benutzername, Passwort) einmal eingeben, die App merkt sich alles für den nächsten Start. Vor dem ersten Start müssen die [Nutzungsbedingungen](NUTZUNGSBEDINGUNGEN.md) akzeptiert werden.
 
 ## Funktionen
 
