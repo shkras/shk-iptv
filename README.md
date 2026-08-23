@@ -42,4 +42,4 @@ Fragen oder Probleme? Über die [Issues-Seite](../../issues) melden.
 
 ---
 
-Nutzt [FFmpeg](https://ffmpeg.org) (LGPL/GPL) für die Audiowiedergabe.
+© 2026 SHK. Alle Rechte vorbehalten. Nutzt [FFmpeg](https://ffmpeg.org) für die Audiowiedergabe – Details siehe [LICENSE](LICENSE) und [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
