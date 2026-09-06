@@ -5,34 +5,26 @@ akzeptiert werden, um die App zu nutzen.
 
 ## 1. Was SHK IPTV ist
 
-SHK IPTV ist ein reines Wiedergabeprogramm für IPTV-Streams über die
+SHK IPTV ist ein Wiedergabeprogramm für IPTV-Streams über die
 Xtream-Codes-Schnittstelle. Es liefert selbst keine Sender oder sonstigen
-Inhalte und ist mit keinem Anbieter verbunden. Für die Nutzung benötigen Sie
-einen eigenen, gültigen Zugang bei einem IPTV-Anbieter.
+Inhalte und ist mit keinem Anbieter verbunden - dafür brauchst du deinen
+eigenen Zugang bei einem IPTV-Anbieter.
 
-## 2. Erlaubte Nutzung
+## 2. Nutzung
 
-Sie dürfen SHK IPTV ausschließlich mit Zugangsdaten nutzen, für die Sie über
-die erforderlichen Rechte verfügen - also mit einem rechtmäßig erworbenen
-Zugang eines Anbieters, der zur Übertragung der jeweiligen Sender berechtigt
-ist. Die Nutzung mit Zugangsdaten, die unbefugt erlangt wurden, oder mit
-Anbietern, die Inhalte ohne die erforderlichen Rechte anbieten, ist nicht
-gestattet.
+SHK IPTV darf nur mit einem rechtmäßig erworbenen Zugang genutzt werden,
+wobei bekannte unautorisierte Anbieter automatisch gesperrt werden (siehe
+[`blocklist.json`](blocklist.json)).
 
-## 3. Sperrung bekannter Quellen
+## 3. Verantwortung
 
-SHK IPTV gleicht die eingegebene Server-Adresse gegen [`blocklist.json`](blocklist.json)
-ab und verweigert die Verbindung zu gelisteten Anbietern. Diese Liste kann
-nicht jeden Fall abdecken - die Verantwortung für die Rechtmäßigkeit des
-genutzten Zugangs liegt unabhängig davon bei Ihnen als Nutzer.
-
-## 4. Verantwortung
-
-Sie sind für die Rechtmäßigkeit Ihres eigenen IPTV-Zugangs selbst
+Für die Rechtmäßigkeit deines eigenen IPTV-Zugangs bist du selbst
 verantwortlich. SHK IPTV übernimmt keine Haftung für Inhalte Dritter, die
-über einen von Ihnen eingegebenen Server abgerufen werden.
+über einen von dir eingegebenen Server abgerufen werden.
 
-## 5. Rechte am Programm
+## 4. Rechte am Programm
 
-SHK IPTV ist urheberrechtlich geschützt - siehe [LICENSE](LICENSE) und
+SHK IPTV ist urheberrechtlich geschützt - nutze es gerne so, wie es dir am
+besten passt, nur bitte verändere oder verbreite das Programm selbst nicht
+ohne unser Okay. Details siehe [LICENSE](LICENSE) und
 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
