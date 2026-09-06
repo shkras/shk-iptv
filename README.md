@@ -22,7 +22,13 @@ Beim ersten Start zeigt Windows evtl. eine Warnung ("Unbekannter Herausgeber"). 
 
 Apple Silicon (arm64), macOS 11+.
 
-Beim ersten Start meldet macOS evtl., die App sei nicht verifiziert (Gatekeeper). Das liegt daran, dass wir kein Apple-Entwicklerzertifikat haben, nicht an einem Sicherheitsproblem – per Rechtsklick auf die App → "Öffnen" → nochmal "Öffnen" bestätigen.
+Da wir kein Apple-Entwicklerzertifikat haben, ist die App nicht signiert. macOS meldet beim ersten Start deshalb, sie sei "beschädigt" und gehöre in den Papierkorb – das ist keine echte Beschädigung, sondern Gatekeeper. Im Terminal die Quarantäne-Markierung entfernen, dann startet sie normal:
+
+```
+xattr -cr "/Applications/SHK IPTV.app"
+```
+
+(Pfad anpassen, falls die App nicht im Programme-Ordner liegt.) Der Weg über Systemeinstellungen → Datenschutz & Sicherheit → "Trotzdem öffnen" funktioniert bei unsignierten Apps wie dieser oft nicht – dann bringt nur der Terminal-Befehl.
 
 ### Linux
 
