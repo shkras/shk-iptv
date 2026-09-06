@@ -6,13 +6,19 @@ terms, as required by those licenses.
 
 ## FFmpeg
 
-SHK IPTV runs an unmodified, official FFmpeg binary as a separate process
-to remux video and convert incompatible audio tracks to AAC — it is not
-modified and not compiled into this application's own code.
+SHK IPTV runs an unmodified FFmpeg binary as a separate process to remux
+video and convert incompatible audio tracks to AAC — it is not modified
+and not compiled into this application's own code. All platform builds use
+an LGPL-only FFmpeg build (`--disable-gpl --disable-nonfree`, no
+GPL-licensed components enabled), not GPL.
 
 - Project: https://ffmpeg.org
-- License: GNU General Public License v3 (GPLv3) — see
-  https://www.gnu.org/licenses/gpl-3.0.html
+- License: GNU Lesser General Public License v3 (LGPLv3) — see
+  https://www.gnu.org/licenses/lgpl-3.0.html
+- Windows: LGPLv3 build (BtbN `win64-lgpl`)
+- macOS: LGPLv3 build, compiled from source for arm64
+  (`--disable-gpl --disable-nonfree`)
+- Linux: LGPLv3 build (BtbN `linux64-lgpl`), x86_64
 - Source code for the exact version distributed with this release: see the
   `ffmpeg -version` output bundled in the release, and the corresponding
   commit at https://github.com/FFmpeg/FFmpeg
